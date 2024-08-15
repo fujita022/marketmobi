@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://img.freepik.com/fotos-gratis/casal-feliz-com-as-chaves-do-novo-apartamento_329181-19931.jpg?w=1380&t=st=1723745140~exp=1723745740~hmac=c2d9ae9e4af962f72a7b4781c9f92f2876609405bfe6cebbf35d1f923bc02583');
+    background-size: 100vw 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
+
+header{
+  background-color: rgba(61, 56, 56, 0.525);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: ;
+  align-items: baseline;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px;
+}
+
+.title {
+
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contato{
+  display: flex;
+  gap: 10px;
+}
