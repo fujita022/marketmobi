@@ -1,14 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+:root{
+  --branco-primario:rgba(255, 255, 255, 0.76);
+  --background-cor: rgba(37, 37, 37, 0.438);
+  --cor-vinho-principal:#ffffff;
+}
+body, html{
+  background-color: #fcfcfc;
   margin: 0 auto;
   padding: 0 auto;
+  overflow-x: hidden;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .container{
     width: 100%;
-    height: 100vh;
-    background-image: url('https://img.freepik.com/fotos-gratis/casal-feliz-com-as-chaves-do-novo-apartamento_329181-19931.jpg?w=1380&t=st=1723745140~exp=1723745740~hmac=c2d9ae9e4af962f72a7b4781c9f92f2876609405bfe6cebbf35d1f923bc02583');
+    height: 80vh;
+    margin: 0 auto;
+    background-image: url('https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-size: 100vw 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -16,22 +25,106 @@
   }
 
 header{
-  background-color: rgba(61, 56, 56, 0.525);
+  background-color: rgba(0, 0, 255, 0.449);
   width: 100%;
-  height: 100vh;
+  height: 13vh;
   display: flex;
-  justify-content: baseline ;
-  align-items: baseline;
+  gap: 30rem;
+  justify-content: space-around;
+  align-items: center;
   border-radius: 5px;
   box-shadow: 0px 0px 10px 0px;
+  position: fixed;
+;  z-index: 1000
 }
 
-.title {
+.row-interativos:hover{
+  color: rgba(39, 37, 37, 0.965);
+  background-color:rgba(0, 0, 0, 0.626);
+}
 
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.row-interativos a:hover{
+  color:var(--cor-vinho-principal);
+}
+
+.anunciar{
+  border: 0px solid rgba(255, 0, 0, 0.742);
+  background-color: rgba(255, 0, 0, 0.742);
+  border-radius: 30px;
+  padding: 10px;
+  text-decoration: dotted;
+}
+
+header .logo img{
+  width: 13vw; /* 50% da largura da viewport */
+  height: 13vw;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+.row-interativos{
+  display: flex;
+  gap: 3em;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  border: 0px solid rgba(0, 0, 0, 0);
+  box-shadow: 0px 0px 5px 0px;
+  padding: 0.5em;
+  border-radius: 30px;
+  width: 45rem;
+}
+
+.pesquisa img{
+  align-items: center;
+  padding-left: 0.5em;
+  width: 2.3vw;
+  object-fit: cover;
+}
+
+.row-interativos a{
+  align-items: center;
+  font-style: none;
+  color: var(--branco-primario);
+  text-decoration: none;
+  font-size: 21px;
 }
 
 .contato{
   display: flex;
+  gap: 20px;
+  padding-right: 2rem;
+}
+
+.contato img{
+  width: 3vh;
+  height: auto;
+}
+
+.container2{
+  width: 80%;
+  height: 50vh;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+
+.produtos {
+  display: flex;
+  flex-wrap: wrap;
   gap: 10px;
+  width: 100%;
+  margin: 0 auto;
+}
+.box {
+  margin: 2em;
+  background-color: #00000086;
+  width: 10%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }

@@ -3,22 +3,65 @@ function Header() {
   <>
     <div className="container">
     
-      <header id='header'className="nav-bar">
+      <header>
         <div className="logo">
+          <img src="https://iili.io/dGIIGLb.png" alt="" />
         </div>
-      <h1 className="title">
-        Market Mobi
-      </h1>
+      <div className="row-interativos">
+        <div className="comprar">
+          <a href="">Comprar Imóveis</a>
+        </div>
+        <div className="alugar">
+          <a href="#">Alugar Imóveis</a>
+        </div>
+        <div className="anunciar">
+          <a href="#">Anunciar Imóveis</a>
+        </div>
+      <div className="pesquisa">
+        <a href="#">
+          <img src="https://cdn-icons-png.flaticon.com/128/2319/2319177.png" alt="pesquisa imagem" />
+        </a>
+      </div>
+      </div>
+      
       <div className="contato">
-      <div className='instagram'>
-        <a href="https://www.instagram.com/marketmobi/" target="_blank">Instagram</a>
-      </div>
-      <div className='whatsapp'>
-        <a href="#" target="_blank">WhatsApp</a>
-      </div>
+        <div className='instagram'>
+          <a href="https://www.instagram.com/marketmobi/" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/128/1384/1384031.png" alt="instagram imagem"/>
+          </a>
+        </div>
+        <div className='whatsapp'>
+          <a href="#" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/128/5968/5968841.png" alt="whatsapp imagem"/>
+          </a>
+        </div>
       </div>
       </header>
     </div>
+    <section className="container2">
+      <div className="produtos">
+        <div className="box">
+          <a href="#">produto1</a>
+        </div>
+        <div className="box">
+          <a href="#">produto2</a>
+        </div>
+        <div className="box">
+          <a href="#">produto3</a>
+        </div>
+        <div className="box">
+          <a href="#">produto4</a>
+        </div>
+        <div className="box">
+          <a href="#">produto5</a>
+        </div>
+        <div className="box">
+          <a href="#">produto6</a>
+        </div>
+      </div>
+    </section>
+    <section></section>
+    <footer></footer>
   </>
    );
 }
