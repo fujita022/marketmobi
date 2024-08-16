@@ -2,11 +2,11 @@
 
 :root{
   --branco-primario:rgba(255, 255, 255, 0.76);
-  --background-cor: rgba(37, 37, 37, 0.438);
+  --background-cor: rgba(37, 37, 37, 0.64);
   --cor-vinho-principal:#ffffff;
 }
 body, html{
-  background-color: #fcfcfc;
+  background-color: var(--background-cor);
   margin: 0 auto;
   padding: 0 auto;
   overflow-x: hidden;
