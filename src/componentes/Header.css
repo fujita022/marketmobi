@@ -117,10 +117,10 @@ header .logo img{
   width: 100%;
 }
 .box {
-  margin: 2em;
+  margin: 1.5em;
   background-color: #00000086;
-  width: 15%;
-  height: 20vh;
+  width: 50%;
+  height: 30vh;
   display: flex;
   justify-content: center;
   align-items: center;
