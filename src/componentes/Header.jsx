@@ -55,13 +55,10 @@ function Header() {
         <div className="box">
           <a href="#">produto5</a>
         </div>
-        <div className="box">
-          <a href="#">produto6</a>
-        </div>
       </div>
     </section>
-    <section></section>
-    <footer></footer>
+    <section>Em alta</section>
+    <footer>FOOTER</footer>
   </>
    );
 }
