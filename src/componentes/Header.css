@@ -74,12 +74,12 @@ header .logo img{
   box-shadow: 0px 0px 5px 0px;
   padding: 0.5em;
   border-radius: 30px;
-  width: 100%;
+  width: 80%;
 }
 
 .pesquisa img{
   align-items: center;
-  padding-left: 0.5em;
+  padding-left: 5.5em;
   width: 2.3vw;
   object-fit: cover;
 }
