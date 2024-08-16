@@ -70,6 +70,8 @@ header .logo img{
   border: 0px solid rgba(0, 0, 0, 0.246);
   box-shadow: 0px 0px 8px 0px;
   border-radius: 30px;
+  padding: 1px;
+  margin: 1px auto;
   width: 30%;
 }
 
