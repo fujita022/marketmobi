@@ -45,15 +45,8 @@ function Header() {
         </div>
         <div className="box">
           <a href="#">produto2</a>
-        </div>
-        <div className="box">
+        </div>        <div className="box">
           <a href="#">produto3</a>
-        </div>
-        <div className="box">
-          <a href="#">produto4</a>
-        </div>
-        <div className="box">
-          <a href="#">produto5</a>
         </div>
       </div>
     </section>
