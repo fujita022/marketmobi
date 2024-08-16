@@ -51,7 +51,7 @@ header{
   border: 0px solid rgba(255, 0, 0, 0.742);
   background-color: rgba(255, 0, 0, 0.742);
   border-radius: 30px;
-  padding: 10px;
+  padding: 4px;
   text-decoration: dotted;
 }
 
@@ -70,7 +70,7 @@ header .logo img{
   border: 0px solid rgba(0, 0, 0, 0.246);
   box-shadow: 0px 0px 8px 0px;
   border-radius: 30px;
-  padding: 1px;
+  padding: 3px;
   margin: 1px auto;
   width: 30%;
 }
