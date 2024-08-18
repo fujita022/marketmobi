@@ -5,7 +5,7 @@ function Header() {
     
       <header>
         <div className="logo">
-          <img src="https://files.fm/f/6rpcja8gkc" alt="" />
+          <img src="https://i.postimg.cc/2Sk2TFNv/LOGOOFICIAL.png" alt="logo imagem" />
         </div>
       <div className="row-interativos">
         <div className="comprar">
