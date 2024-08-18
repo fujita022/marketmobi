@@ -5,7 +5,7 @@ function Header() {
     
       <header>
         <div className="logo">
-          <img src="public/MARKETMOBI.png" alt="" />
+          <img src="https://files.fm/f/6rpcja8gkc" alt="" />
         </div>
       <div className="row-interativos">
         <div className="comprar">
