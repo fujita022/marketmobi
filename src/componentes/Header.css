@@ -32,7 +32,7 @@ header {
   gap: 5rem;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.166);
   position: fixed;
   top: 0;
   z-index: 1000;
@@ -43,7 +43,7 @@ header {
   gap: 3em;
   align-items: center;
   justify-content: center;
-  width: 40vw;
+  width: 40vw fit-content;
   text-align: center;
   padding: 0.5em;
   border-radius: 30px;
@@ -51,8 +51,8 @@ header {
 }
 
 .row-interativos:hover {
-  color: rgba(39, 37, 37, 0.965);
-  background-color: rgba(0, 0, 0, 0.626);
+  color: rgba(39, 37, 37, 0);
+  background-color: rgba(0, 0, 0, 0.657);
 }
 
 .row-interativos a {
