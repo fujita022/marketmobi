@@ -165,15 +165,19 @@ header .logo img {
   }
 
   .row-interativos {
-    width: 40%; 
-    gap: 1em;
-    padding: 0.5em;
-    flex-direction: column;
+    width: 25%; 
+    font-size: 8px;
+    gap: 1.3em;
+    flex-direction: row;
     align-items: center; 
   }
 
+  .contato img{
+    width: 4vw;
+  }
+
   header .logo img {
-    width: 30vw;
+    width: 20vw;
     height: auto;
   }
 
@@ -182,6 +186,6 @@ header .logo img {
   }
 
   .row-interativos a {
-    font-size: 16px; 
+    font-size: 12px; 
   }
 }
