@@ -132,7 +132,9 @@ header .logo img {
     width: 20vw;
     height: auto; 
   }
-
+  .pesquisa img {
+    width: 4vw;
+  }
   .box {
     width: 50%;
   }
@@ -141,6 +143,10 @@ header .logo img {
 @media (max-width: 768px) {
   header {
     height: 12vh;
+  }
+
+  .pesquisa img {
+    width: 4vw;
   }
 
   .row-interativos {
