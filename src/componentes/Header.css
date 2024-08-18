@@ -2,7 +2,7 @@
 
 :root {
   --branco-primario: rgba(255, 255, 255, 0.76);
-  --background-cor: rgba(37, 37, 37, 0.64);
+  --background-cor: #ffffff2f;
   --cor-vinho-principal: #ffffff;
 }
 
@@ -27,7 +27,7 @@ body, html {
 header {
   width: 100%;
   height: 15vh;
-  background-color: rgba(0, 0, 255, 0.48);
+  background-color: #0000ff7a;
   display: flex;
   gap: 5rem;
   justify-content: center;
