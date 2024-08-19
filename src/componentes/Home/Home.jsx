@@ -9,7 +9,7 @@ function Header() {
         </div>
       <div className="row-interativos">
         <div className="comprar">
-          <a href="">Comprar Imóveis</a>
+          <a onClick='Comprar()'>Comprar Imóveis</a>
         </div>
         <div className="alugar">
           <a href="#">Alugar Imóveis</a>
@@ -50,8 +50,14 @@ function Header() {
         </div>
       </div>
     </section>
-    <section>Em alta</section>
-    <footer>FOOTER</footer>
+    <section className="infos">Em alta</section>
+    <footer>
+      <div className="container-footer">
+        <div className="logo-footer">
+          
+        </div>
+      </div>
+    </footer>
   </>
    );
 }
