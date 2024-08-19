@@ -2,6 +2,7 @@ import './style.css'
 import Lixeira from '../../assets/lixeira.svg'
 import api from '../../services/api'
 import { useEffect } from 'react'
+
 function Home() {
   let users = []
 
@@ -9,7 +10,11 @@ function Home() {
     users = await api.get('/usuarios')
   }
 
-  useeff
+  useEffect(() =>{
+    getUsers
+  }, [])
+
+
   return (
     <>
       <div className="container">
