@@ -3,8 +3,8 @@
 :root {
   --branco-primario: rgba(255, 255, 255, 0.939);
   --background-cor: #c3c1c100;
-  --background-cor-header:#0000ff7a;
-  --cor-hover-principal:rgb(112, 112, 112);
+  --background-cor-header:#0000ffc9;
+  --cor-hover-principal:rgb(0, 0, 0);
 } 
 
 *{

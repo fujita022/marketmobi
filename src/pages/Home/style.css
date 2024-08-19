@@ -18,13 +18,13 @@ body, html {
 
 header {
   width: 100%;
-  height: 15vh;
+  height: 13vh;
   background-color: var(--background-cor-header);
   display: flex;
   gap: 5rem;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.166);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.881);
   position: fixed;
   top: 0;
   z-index: 1000;
@@ -38,23 +38,31 @@ header {
   width: 40vw fit-content;
   text-align: center;
   padding: 0.5em;
-  border-radius: 30px;
-  transition: background-color 0.3s, color 0.3s;
+  border-radius: 20px;
+  transition: 0.3s, color 0.3s;
 }
 
 .row-interativos:hover {
-  color: rgba(39, 37, 37, 0);
-  background-color: rgba(0, 0, 0, 0.657);
+  color: rgb(6, 1, 46);
+  background-color: rgba(98, 98, 244, 0.612);
+
 }
 
 .row-interativos a {
   color: var(--branco-primario);
   text-decoration: none;
   font-size: 21px;
+  transition: all 0.3s ;
 }
 
 .row-interativos a:hover {
   color: var(--cor-hover-principal);
+
+}
+
+.row-interativos a:active {
+  color: var(--branco-primario);
+  transition: all 0.01s;
 }
 
 .anunciar {
