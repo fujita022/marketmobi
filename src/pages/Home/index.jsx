@@ -37,7 +37,6 @@ function Home() {
               </a>
             </div>
             <div className="registrar-entrar">
-
             </div>
           </div>
         </header>
