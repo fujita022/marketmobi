@@ -1,4 +1,6 @@
 import './style.css';
+import { Link } from 'react-router-dom';
+
 
 function Home() {
   return (
@@ -37,6 +39,7 @@ function Home() {
               </a>
             </div>
             <div className="registrar-entrar">
+              <Link to="/registrar">Registrar</Link>
             </div>
           </div>
         </header>
@@ -44,7 +47,7 @@ function Home() {
       <section className="container2">
         <div className="produtos">
           <div className="box">
-            <a href="#">produto1</a>
+            <Link to='/Produto-1'>Acessar produto</Link>
           </div>
           <div className="box">
             <a href="#">produto2</a>
@@ -60,17 +63,6 @@ function Home() {
           </div>
         </div>
       </footer>
-
-      <div className="container-register">
-        
-        <form>
-          <h1>Cadastre-se</h1>
-          <input type="text" name='Nome' placeholder='Nome:' />
-          <input type="number" name='Idade' placeholder='Idade:' />
-          <input type="email" name='E-mail' placeholder='E-mail:' />
-          <button type="button">Cadastrar</button>
-        </form>
-    </div>
     </>
   );
 }
