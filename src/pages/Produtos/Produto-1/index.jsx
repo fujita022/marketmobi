@@ -1,6 +1,8 @@
+import HeaderPrincipal from '../../../main'
+
 function Produto1() {
   return ( 
-    <h1>das 1</h1>
+    <HeaderPrincipal/>
    );
 }
 
