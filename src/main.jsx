@@ -7,7 +7,7 @@ import './index.css'
 function HeaderPrincipal() {
   return (     <>
     <div className="container">
-      <header>
+      <header className='Header'>
         <div className="logo">
           <img src="https://i.postimg.cc/2Sk2TFNv/LOGOOFICIAL.png" alt="logo imagem" />
         </div>
