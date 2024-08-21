@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App'
 import './index.css'
-import { Link } from 'react-router-dom';
+
 
 function HeaderPrincipal() {
   return (     <>
@@ -40,7 +40,6 @@ function HeaderPrincipal() {
             </a>
           </div>
         </div>
-        <Link to="/registrar">Registrar</Link>
       </header>
     </div>
   </> );
