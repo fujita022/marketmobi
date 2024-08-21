@@ -96,8 +96,7 @@ header .logo img {
 .registro{
   color: white;
   text-decoration: none;
-  background-color: black;
-  
+  border-radius: 15px;
   font-style: none;
 }
 

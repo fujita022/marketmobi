@@ -38,8 +38,8 @@ function Home() {
               </a>
             </div>
           </div>
-            <Link to="/registrar">
-            <p className='registro'>Registrar</p>
+            <Link to="/registrar" className='registro'>
+              Acesse aqui para receber informações pelo WhatsApp!
             </Link>
         </header>
       </div>
