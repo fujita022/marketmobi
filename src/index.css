@@ -2,9 +2,11 @@
 
 :root {
   --branco-primario: rgba(255, 255, 255, 0.939);
-  --background-cor: #c3c1c100;
+  --background-cor: #c3c1c1d4;
   --background-cor-header:#0000ffc9;
+  --background-cor-box:#161690b1;
   --cor-hover-principal:rgb(0, 0, 0);
+  --cor-background-botoes: rgba(39, 102, 184, 0.633);
 } 
 
 *{
@@ -15,7 +17,62 @@
   box-sizing: border-box;
 }
 
-body{
+body, html{
   min-height: 100vh;
   width: 100vw;
+  overflow-x: hidden;
+  font-family: 'Inter', sans-serif;
+}
+
+@media (max-width: 1024px) {
+  .row-interativos {
+    width: 50%; 
+  }
+
+  header .logo img {
+    width: 20vw;
+    height: auto; 
+  }
+  .pesquisa img {
+    width: 4vw;
+  }
+  .box {
+    width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+  }
+  .pesquisa img {
+    width: 4vw;
+  }
+
+  .row-interativos {
+    width: 24%; 
+    font-size: 8px;
+    gap: 1.3em;
+    flex-direction: row;
+    align-items: center; 
+  }
+
+  .contato img{
+    width: 4vw;
+  }
+
+  header .logo img {
+    width: 20vw;
+    height: auto;
+  }
+
+  .box {
+    width: 90%;
+  }
+
+  .row-interativos a {
+    font-size: 12px; 
+  }
 }

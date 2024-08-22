@@ -1,0 +1,74 @@
+header {
+  width: 100vw;
+  height: 130px;
+  background-color: var(--background-cor-header);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.881);
+}
+
+.row-interativos {
+  display: flex;
+  gap: 2em;
+  width: 700px;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+  text-align: center;
+  padding: 0.5em;
+  border-radius: 20px;
+  transition: 0.3s, color 0.3s;
+  height: fit-content;
+  padding-right: 2rem;
+}
+
+.row-interativos:hover {
+  background-color: rgba(147, 147, 160, 0.071);
+
+}
+
+.row-interativos a {
+  color: var(--branco-primario);
+  text-decoration: none;
+  font-size: 26px;
+  transition: all 0.3s ;
+  font-display: 30px;  
+}
+
+.row-interativos a:hover {
+  color: var(--cor-hover-principal);
+
+}
+
+.row-interativos a:active {
+  color: var(--branco-primario);
+  transition: all 0.01s;
+}
+
+.anunciar {
+  border: none;
+  background-color: rgba(255, 0, 0, 0.8);
+  border-radius: 30px;
+  padding: 8px;
+  text-align: center;
+  text-decoration: dotted;
+}
+
+header .logo img {
+  width: fit-content;
+  height: auto;
+}
+
+.pesquisa img {
+  width: 1.5vw;
+}
+
+.contato {
+  display: flex;
+  gap: 20px;
+}
+
+.contato img {
+  width: 3vh;
+}

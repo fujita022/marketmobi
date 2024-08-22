@@ -1,0 +1,44 @@
+.container-compra {
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  align-items: center; 
+  flex-direction: column;
+  margin: 0 auto; 
+}
+
+.botoes-interativos {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  width: 60%; 
+}
+
+.botao{
+  border-radius: 30px;
+  background-color: var(--cor-background-botoes);
+  width: 18%;
+  padding: 0.18em;
+  text-align: start;
+  padding-left: 1em;
+}
+
+.box-imoveis{
+  display: grid;
+  
+  margin-top: 1rem;
+  background-color: var(--background-cor-box);
+  border-radius: 30px;
+  height: 400px;
+}
+
+.box-imoveis img{
+  width: 300px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.box-texto{
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
