@@ -1,6 +1,6 @@
-.container-compra {
+.container-pagecompra {
   width: 80%;
-  height: 100vh;
+  height: 150vh auto ;
   display: flex;
   align-items: center; 
   flex-direction: column;
@@ -23,13 +23,24 @@
   padding-left: 1em;
 }
 
+.container-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: max-content;
+  gap: 2rem;
+  margin: 0;
+}
+
 .box-imoveis{
-  display: grid;
-  
-  margin-top: 1rem;
+  margin-top: 2rem;
   background-color: var(--background-cor-box);
   border-radius: 30px;
   height: 400px;
+  gap: 5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
 }
 
 .box-imoveis img{
@@ -41,4 +52,8 @@
 .box-texto{
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
+}
+
+.box-imoveis:hover {
+  transform: translateY(-5px);
 }
