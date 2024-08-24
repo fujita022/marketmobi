@@ -1,8 +1,10 @@
+import './Alugar.css'
+
 function Alugar() {
 
   return (
     <>
-      <div className="container-compra">
+      <div className="container-pagealugar">
         <div className="botoes-interativos">
           <div className="botao comprar">Alugar Imóvel</div>
           <div className="botao regiiao">Escolher a região</div>
