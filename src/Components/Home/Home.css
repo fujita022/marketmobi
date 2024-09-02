@@ -4,4 +4,42 @@
   background: url('https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover;
 }
 
+.container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3em auto;
+  background-color: rgb(155, 155, 155);
+}
+
+.produtos-nav-bar {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+  justify-content: center;
+  background-color: rgba(43, 36, 36, 0.397);
+  border-radius: 40px;
+  width: max-content;
+}
+
+.box {
+  width: 500px;
+  height: 400px;
+  margin: 1.5em;
+  background-color: rgba(53, 48, 48, 0.822);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+
+.box:hover {
+  transform: translateY(-5px);
+}
+
 

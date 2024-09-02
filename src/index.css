@@ -10,16 +10,12 @@
 } 
 
 *{
-  max-width: 100vw;
-  max-height: 100vh;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+
 }
 
 body, html{
-  min-height: 100vh;
-  width: 100vw;
   overflow-x: hidden;
   font-family: 'Inter', sans-serif;
 }
@@ -43,36 +39,62 @@ body, html{
 
 @media (max-width: 480px) {
   header {
-    height: 10vh;
+    min-width: 414px;
+    height: 60px;
     display: flex;
     justify-content: center;
+    align-items: center;
   }
+  
   .pesquisa img {
-    width: 4vw;
+    width: 20px;
   }
 
   .row-interativos {
-    width: 24%; 
-    font-size: 8px;
-    gap: 1.3em;
-    flex-direction: row;
+    font-size: 4px;
+    width: 330px;
     align-items: center; 
+    gap: 0px;
+    padding: 0px ;
+    margin: 0px;
+  }
+
+  .contato {
+    display: flex;
+    gap: 8px;
+    width: 35px;
+  }
+  .nav-pesquisa{
+    display: flex;
+    justify-content: space-around;
+    gap: 12px;
+  }
+
+  .anunciar{
+    padding: 3px 0px 3px 0px;
+    width: 110px;
+    display: flex;
+    justify-content: center;
   }
 
   .contato img{
-    width: 4vw;
+    width: 15px;
   }
 
   header .logo img {
-    width: 20vw;
+    width: 40px;
     height: auto;
   }
 
   .box {
-    width: 90%;
+    width: 20px;
   }
 
   .row-interativos a {
     font-size: 12px; 
+  }
+
+  .produtos-nav-bar{
+    display: flex;
   }
 }

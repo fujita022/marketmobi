@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom";
 import './Header.css'
-
+import Logo from '../../assets/logomm.png'
 function Header() {
   return (    
      <>
-    <div className="container">
-      <header className='Header'>
+    <div className="container-header">
+      <header>
         <div className="logo">
           <Link to="/">
-          <img src="https://i.postimg.cc/2Sk2TFNv/LOGOOFICIAL.png" alt="logo imagem" />
+          <img src={Logo} alt="logo imagem" />
           </Link>
         </div>
         <div className="row-interativos">
@@ -19,6 +19,7 @@ function Header() {
           <div className="alugar">
             <Link to='/Alugar'>Alugar</Link>
           </div>
+          <div className="nav-pesquisa">
           <div className="anunciar">
             <Link to='/Anunciar'>Anunciar Imóveis</Link>
           </div>
@@ -27,12 +28,13 @@ function Header() {
               <img src="https://cdn-icons-png.flaticon.com/128/2319/2319177.png" alt="pesquisa imagem" />
             </a>
           </div>
+          </div>
         </div>
 
         <div className="contato">
           <div className='instagram'>
             <a href="https://www.instagram.com/marketmobi/" target="_blank">
-              <img src="https://cdn-icons-png.flaticon.com/128/1384/1384031.png" alt="instagram imagem" />
+              <img src="https://cdn-icons-png.flaticon.com/128/1384/1384031.png" width={20} alt="instagram imagem" />
             </a>
           </div>
           <div className='whatsapp'>
